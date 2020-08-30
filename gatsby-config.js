@@ -7,11 +7,12 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: "Full-Stack Bootcamp",
+    title: "Full-Stack Gatsby Test",
     author: "==Beros=="
   },
   plugins: [
     "gatsby-plugin-sass",
+    "gatsby-transformer-remark",
     {
       resolve: "gatsby-source-filesystem",
       options: {
